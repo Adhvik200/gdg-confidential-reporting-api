@@ -1,5 +1,14 @@
 # GDG SRMIST KTR — Confidential Reporting System
 
+## Live Deployment
+
+- **Live API:** https://gdg-confidential-reporting-api.onrender.com
+- **Health Check:** https://gdg-confidential-reporting-api.onrender.com/health
+- **Swagger/OpenAPI:** https://gdg-confidential-reporting-api.onrender.com/apidocs/
+
+The deployed demo currently uses SQLite. SQLite data on Render may not persist across redeployments; PostgreSQL is recommended for persistent production data.
+
+
 A backend REST API for submitting and tracking confidential reports anonymously. This project was developed as a recruitment-task implementation for the **Google Developer Groups (GDG) SRMIST KTR**.
 
 A reporter can submit a report without creating an account or providing identifying information. The system returns a cryptographically random case code that can be used to check the report status later.
